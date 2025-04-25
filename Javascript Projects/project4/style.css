@@ -1,0 +1,117 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-Serif;
+  font-family: Segoe UI;
+}
+
+nav, div, h2, img, button, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+}
+@media (max-width:768px){
+#nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  padding-top: 6px;
+  align-items: center;
+}
+
+#nav-header h2 {
+  color: #8fe2eec0;
+  font-size: 1.8rem;
+  text-shadow: -1.2px -1.2px #30e3f8bf;
+}
+
+span {
+  color: #181818;
+  text-shadow: 1.2px 1.2px #262626cc;
+}
+
+:root {
+  --menu-bar: 35px;
+}
+
+.nav-toggle {
+  border: none;
+  background-color: transparent;
+  padding: 4px;
+}
+.nav-toggle{
+  transition: all 0.5s ease-in-out;
+}
+.menu-rotate{
+  transform: rotate(-90deg);
+}
+.menu {
+  width: var(--menu-bar);
+  height: calc(var(--menu-bar) / 2);
+  object-fit: cover;
+  object-position: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+ul li {
+  list-style: none;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  padding-top: 10px;
+  transition: all 0.5s;
+  padding-bottom: 10px;
+}
+
+#last-menu {
+  padding-bottom: 15px;
+}
+
+nav {
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.145);
+  background: #fff;
+}
+
+li:hover {
+  background: #8fe2eec0;
+  transform: scale(1.1);
+}
+
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.show-links {
+  height: auto;
+  overflow: visible;
+  animation: slideDown 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+}
