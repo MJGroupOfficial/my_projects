@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
     title: `CSS Component ${i + 1}`,
     image: `./public/images/css/img${i + 1}.jpg`, // Correct relative path
     alt: `CSS component example ${i + 1}`,
-    previewLink: `https://mjgroupofficial.github.io/my_projects/CSS%20Components/Project${i + 1}/`,
-    codeLink: `https://github.com/MJGroupOfficial/my_projects/tree/main/CSS%20Components/Project${i + 1}`
+    previewLink: `https://mjgroupofficial.github.io/my_projects/CSS%20Components/project${i + 1}/`,
+    codeLink: `https://github.com/MJGroupOfficial/my_projects/tree/main/CSS%20Components/project${i + 1}`
   }));
 
   const jsComponents = Array.from({ length: 8 }, (_, i) => ({
@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
     title: `JS Component ${i + 1}`,
     image: `./public/images/js/img${i + 1}.jpg`, // Correct relative path
     alt: `JavaScript component example ${i + 1}`,
-    previewLink: `https://mjgroupofficial.github.io/my_projects/Javascript%20Components/Project${i + 1}/`,
-    codeLink: `https://github.com/MJGroupOfficial/my_projects/tree/main/Javascript%20Components/Project${i + 1}`
+    previewLink: `https://mjgroupofficial.github.io/my_projects/Javascript%20Components/project${i + 1}/`,
+    codeLink: `https://github.com/MJGroupOfficial/my_projects/tree/main/Javascript%20Components/project${i + 1}`
   }));
 
   // Function to create a card element
