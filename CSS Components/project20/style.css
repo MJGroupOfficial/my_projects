@@ -26,7 +26,7 @@ html, body{
   transform-style: preserve-3d;
 }
 #card:hover{
-  transform:rotatey(180deg)
+  transform:rotateY(180deg)
 }
 #card-back{
   display: none;

@@ -98,12 +98,12 @@ button{
   margin-left: 15px;
   margin-top:15px;
 }
-@media (max-width:768px){
+@media (max-width:1200px){
   .section-center{
     grid-template-columns: repeat(2,1fr);
   }
 }
-@media (max-width:490px){
+@media (max-width:765px){
     .section-center{
     grid-template-columns: 1fr;
   }
