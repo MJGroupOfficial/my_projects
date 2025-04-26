@@ -2,6 +2,7 @@ html, body{
   margin: 0;
   padding: 0;
   background: #ced0e2;
+  font-family: 'Poppins', sans-serif;
 }
 :root{
   --toogle-switch-bg:#232428;

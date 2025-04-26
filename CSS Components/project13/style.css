@@ -5,6 +5,7 @@ html, body{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
 }
 :root {
   --blue:rgb(37,81,156);

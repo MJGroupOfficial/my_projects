@@ -5,6 +5,7 @@ body{
   justify-content: center;
   align-items: center;
   background: black;
+  font-family: 'Poppins', sans-serif;
 }
 :root{
   --red:rgb(169,55,30);

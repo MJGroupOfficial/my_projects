@@ -3,18 +3,24 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-}.circle{
+  font-family: 'Poppins', sans-serif;
+}
+.circle{
   padding:30px;
   border-radius: 100%;
-}#black-circle{
+}
+#black-circle{
   background: black;
-}#yellow-circle{
+}
+#yellow-circle{
   background: yellow;
   z-index: 99;
-}#red-circle{
+}
+#red-circle{
   background: red;
   z-index: 77;
-}#blue-circle{
+}
+#blue-circle{
   background: blue;
   z-index: 55;
 }

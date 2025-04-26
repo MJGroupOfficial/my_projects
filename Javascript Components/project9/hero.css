@@ -1,3 +1,6 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
 .hero {
   width: 100vw;
   height: calc(100vh - 60px); /* Adjusted height to account for header (assuming header is 60px) */

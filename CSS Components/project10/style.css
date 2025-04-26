@@ -4,6 +4,7 @@ body{
   justify-content: center;
   align-items: center;
   background: black;
+  font-family: 'Poppins', sans-serif;
 }
 #container{
   height: 200px;
