@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Component data
-  const cssComponents = Array.from({ length: 23 }, (_, i) => ({
+  const cssComponents = Array.from({ length: 22 }, (_, i) => ({
     id: i + 1,
     title: `CSS Component ${i + 1}`,
     image: `./public/images/css/img${i + 1}.jpg`, // Correct relative path
